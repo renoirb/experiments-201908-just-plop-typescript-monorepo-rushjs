@@ -1,0 +1,35 @@
+{
+  "name": "experiments-201908-just-plop-typescript-monorepo-rushjs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Experimenting with Plop, Just, and a monorepo using Rush.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/renoirb/experiments-201908-just-plop-typescript-monorepo-rushjs"
+  },
+  "license": "MIT",
+  "workspaces": [
+    "packages/*",
+    "scripts"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build --stream",
+    "change": "beachball change",
+    "gen": "plop",
+    "sort-package-json": "npx sort-package-json packages/*/package.json",
+    "test": "lerna run test --stream"
+  },
+  "devDependencies": {
+    "beachball": "^1.11.5",
+    "just-stack-monorepo": "^1.0.0",
+    "lerna": "^3.13.2",
+    "plop": "^2.4.0"
+  },
+  "authors": [
+    {
+      "email": "contribs@renoirboulanger.com",
+      "name": "Renoir Boulanger"
+    }
+  ]
+}

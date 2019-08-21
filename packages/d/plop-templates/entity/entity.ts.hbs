@@ -1,0 +1,11 @@
+import { AlphabetInterface, AlphabetType } from './types'
+
+export class {{pascalCase className}} implements AlphabetInterface {
+  discriminant: AlphabetType = '{{lowerCase className}}';
+}
+
+/**
+ * Pedantic example for {{pascalCase className}}
+ */
+export const {{lowerCase className}} = (): {{pascalCase className}} => new {{pascalCase className}}();
+
