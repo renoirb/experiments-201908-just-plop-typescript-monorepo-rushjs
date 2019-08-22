@@ -8,6 +8,12 @@ Although [Just docs](https://microsoft.github.io/just/docs/stacks-monorepo) says
 
 But that's what I could do in less than one hour with no prior experience with anything here, except [TypeScript](https://www.typescriptlang.org/) and [Lerna](https://github.com/lerna/lerna).
 
+## Use-Case
+
+Related to [microsoft/just#210](https://github.com/microsoft/just/issues/210)
+
+Have a TypeScript monorepo (ideally with Rush, because it is now my new favourite over Lerna), with at least one item, process to run tests, plop files, and run tests.
+
 ## Usage example
 
 ```
