@@ -1,5 +1,5 @@
 {
-  "name": "d",
+  "name": "phonetic-alphabet",
   "version": "0.1.0",
   "license": "MIT",
   "main": "lib-commonjs/index.js",
